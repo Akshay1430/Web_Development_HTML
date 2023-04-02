@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>The HTML Guide</title>
+        
+    </head>
+<body>
+
+    <center>
+        <hr size="3" noshade>
+        <h1>The HTML Guide</h1>
+        <h3>by</h3>
+        <h2>Akshay Shinde</h2>
+        <hr size="3" noshade>
+    </center>
+    <table cellspacing="20">
+        <tr>
+            <td><img src="https://media.licdn.com/dms/image/D4D03AQFAiKpupTRaRA/profile-displayphoto-shrink_100_100/0/1665891366973?e=1686182400&v=beta&t=dg1iP2IWNrZUIRNkSZVnhTMQ9UHuvSsQb_UsyD8klpw" alt="Akshay Shinde Profile Pic"></td>
+            <td><h2>I am Akshay P Shinde,</h2>
+                <p> trying to make career in IT sector and learning new languages. This guide is made for personal reference of HTML language</p>
+            </td>
+        </tr>
+    </table>
+    <p>HTML - Hyper Text Mark up Language
+        To build websites or write content on webpages HTML programming language is used. To make your website more interactive it is colaborated with CSS & javascript to build more complex websites.</p>
+    <p>HTML is for structure </p>
+    <p>CSS is for style</p>
+    <p>Javascript is for behaviour of webpage</p>
+    <h3>* Basics of HTML</h3>
+    <h4>* h Tag</h4>
+       <p>HTML uses tags to guide browser about desired content. One of the most important one is h tag.
+        it is use to write headline(s) of the webpages. This tag must required a closing tag. syntax is < h1 > < / h1 >
+        There are 6 types of H tag i.e. h1 h2 h3 h4 h5 h6</p> 
+    <h1>Sample Headline 1</h1>
+    <h2>Sample Headline 2</h2>
+    <h3>Sample Headline 3</h3>
+    <h4>Sample Headline 4</h4>
+    <h5>Sample Headline 5</h5>
+    <h6>Sample Headline 6</h6>
+    <br>
+    <h4>* br Tag </h4>
+        br tag is use for adding space between two lines.This tag is self closing tag hence doesn't need a closing tag like other tags
+        syntax is < br >
+    <br>
+    <h4>* hr Tag </h4>
+        <p>Hr tag is use to add horizontal lines in the webpage. To elaborate this more effectively we need to understand HTML Attributes.
+            attributes specifies additional requirements regarding a particular tag. e.g. if we need to decide color alignment size shading etc 
+            of the line which we are about to add in the webpage, we will use html attributes. syntax is < hr color = " #080808 " size=" 3 " noshade="" > < /hr ></p>
+    <hr size="5" color="ffff" noshade="">
+    <hr size="4" color="#080808" noshade="">
+    <hr size="3" color="#107e2659" noshade="">
+    <hr size="2" color="731010" noshade="">
+    <hr size="1" noshade="">
+        <br>
+    <h4>* Center Tag </h4>
+        Center tag is use to align the text/headline in the center position of the page.
+
+    <h3>* HTML Boilerplate</h3>
+            <p>Just like there is structure to write a letter or email where you have to put certain details like address, 
+                greetings, main messege and signature at certain place in the letter, the same way HTML also has a structure,
+                which is known as HTML Boilerplate.</p>
+    <ul> 
+    <li><p> <em>< ! Doctype html ></em>         -- This statement defines the Doctype of file for browser to read, here it is HTML file.</p></li>
+    <li><p><em>< html lang = "en" ></em>        -- Latest verison of html is defined here by < html tag and set english as language. all the code will be written inside this tag</p></li>
+    <li><p><em>< head ></em>                    -- this element doesn't show any content on the website but contains important information about the website </p></li>
+    <li><p><em>< meta charset="UTF-8" ></em>    -- this is part of head element which insures that text on the website displays correctly   </p></li>
+    <li><p><em>< title > HTML BASICS < / title ></em>      -- this is title which displays in the link of the webpage </p></li>
+    <li><p><em>< / head ></em>                  -- closing of the head element after giving all the important information to the browser for smooth rendering of the webpage</p></li>
+    <li><p><em>< body ></em>                    -- inside body element we will write our content which needs to be displayed on the webpage to our users</p> </li>
+    <li><p><em>< h1> Hello World</em>           -- content with headline 1 style< / h1 > </p> </li>
+    <li><p><em>< / body></em>                   -- body element closing tag</p></li>
+    <li><p><em>< / html ></em>                  -- html closing tag</p></li>
+</ul>
+    This is a HTML Boilerplate.
+            Shortcut for this Boilerplate is ! + enter button. It will automaticaly write everything for you.
+    <h4>* UL OL LI Tag </h4>
+    <p>< ul > < / ul > means unordered list which is used for ordering content in bullet points format
+        and < li > < /li > (list items) Tag covers each bullet points.
+        IN Ul Tag the content gets written in bullet points or symbols format
+        Another type of list is < ol > < /ol > Tag, which lists the content in numerical order, you can also define type of bullet points or the format of numbers by using html attributes 
+        here, i'm using type="i" to get the numbers in roman format e.g.</p>
+    <h5>My Hobbies - Ordered list</h5>
+        <ol type="i"><li>Boxing</li>
+            <li>Reading</li>
+            <li>Painting</li>
+            <li>Coding</li>
+        </ol>
+    <h5>My Hobbies - Unordered list</h5>
+        <ul><li>Boxing</li>
+            <li>Reading</li>
+            <li>Painting</li>
+            <li>Coding</li>
+        </ul>
+<h4>Img Tag</h4>
+        <p>to insert image on webpage img tag is used. Img tag is self closing tag but using only < img > won't work you have define source of image.
+            Syntax of img tag is < img src="" >.</p>        
+<br>
+        <img src="https://media.licdn.com/dms/image/D4D03AQFAiKpupTRaRA/profile-displayphoto-shrink_100_100/0/1665891366973?e=1686182400&v=beta&t=dg1iP2IWNrZUIRNkSZVnhTMQ9UHuvSsQb_UsyD8klpw" alt="Akshay Shinde Profile Pic">
+
+<h4>href, anchor/a em & strong tag</h4>
+        <p>href tag contains a hyperlink where we want our users to lead. href is written inside a "a" or anchor tag & to make text italic em tag is used and for bold Strong tag is used, both of which requires a closing tag.</p>
+        <p>syntax:< strong > < a href="" > "Text" < /a > < /strong >.. e.g.</p><br> 
+       <em><strong><a href="https://www.coursera.org/">coursera</a></strong></em>
+       <p> you can also create different html pages and link them through href. save the all html file in same location and instead of website link mention file name and path.</p>
+       <p>you can create multiple such webpages and link them.</p>
+
+<h4>Table</h4>
+When we want to put data in a structural tabular format table tag is used.There are many attributes to design or style the table like align or border or bgcolor. But avoid using such attributes as we will use css for styling of table.
+<ul>
+    <li> thead is table head</li>
+    <li> tfoot is table foot</li>
+    <li> tr is table row - data row</li>
+    <li> td is table data - table content</li>
+    <li> th is table header - column name</li>
+    <li> tbody is table body - where row and data is mentioned</li>
+    <li> cellspacing is used to define space between row element</li>
+    <p>Always mention Table head inside thead tag,Mention Table containt inside tbody tag and mention Table foot inside tfoot tag.</p>
+    <p>tr and th tags are used inside thead tag. while tr and td tags are elements of tbody tag</p>
+    <p>e.g.</p>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Middle Name</th>
+                <th>Last Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Akshay</td>
+                <td>Parshuram</td>
+                <td>Shinde</td>
+            </tr>
+            <tr>
+                <td>Krishna</td>
+                <td>Vasudev</td>
+                <td>Yadav</td>
+            </tr>
+        </tbody>
+    </table>
+</ul>
+<h4> HTML Forms</h4>
+    <p>HTML Forms are used to take inputs from users. Input type contains Text, Color, Submit(to create submit button),, Checkbox(to create check box), etc.</p>
+    <p>Syntax is <br>
+        <ul>< form class="" action="HTML File Name" method="post" ><br> 
+            < label > Your Name < /label ><br>
+            < input type="text" name="" value="" ><br>
+            < input type="Submit" name="" value="" >  <br>
+            < input type="file" name="" value="" >  <br>
+            < input type="date" name="" value="" >  <br>
+            < input type="password" name="" value="" >  <br>
+            < input type="search" name="" value="" >  <br>
+            < input type="number" name="" value="" >  <br>     
+        < /form ></ul>
+    </p>
+    
+    <form class="" action="html_basics.html" method="post">
+        <label> Your Name</label>
+        <input type="text" name="" value="">
+        <label>Your Fav Colour</label>
+        <input type="color" name="" value="">
+        <label>Type you password here.</label>
+        <input type="password" name="" value="">
+        <input type="submit" name=""><br>    
+    </form>
+<br>
+
+<p>That was all about basics of HTML. <br>Thanks and Regards <br><h3>Akshay P Shinde</h3></p>
+</body>
+</html>
